@@ -9,7 +9,7 @@ sudo apt install ffmpeg rename
 
 2. Клонируйте этот репозиторий
 ```bash
-git clone git@github.com:doomkin/extract-audio.git
+git clone https://github.com/doomkin/extract-audio.git
 ```
 
 3. Дайте права на выполнение файла `extract-audio`
