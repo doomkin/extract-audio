@@ -1,5 +1,6 @@
 rename 's/ /_/g' *.mp4
 find . -exec ffmpeg -threads 0 -i {} -q:a 0 -map a {}.mp3 \;
 rename 's/\.mp4//' *.mp4.mp3
+rename 's/ /_/g' *.mp4
 mkdir audio
 find . -path ./audio -prune -o -name '*.mp3' -exec mv {} ./audio \;
